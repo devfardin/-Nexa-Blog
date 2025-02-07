@@ -23,7 +23,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={roboto.className}>
+      <body className={roboto.className} suppressHydrationWarning>
         <Header />
         <div className="min-h-screen">{children}</div>
         <Footer />
