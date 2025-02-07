@@ -53,6 +53,15 @@
       "author_name": "Mehedi Imun Anik",
       "blog_image": "https://startnearshoring.com/wp-content/uploads/2023/07/The_Growing_Importance_of_Cybersecurity.jpg",
       "total_likes": "950"
+    },
+    {
+      "id": "8fcf",
+      "title": "Fardin",
+      "author_name": "Fardin Ahmed",
+      "publish_date": "2025-02-07",
+      "total_likes": "10",
+      "blog_image": "https://img.freepik.com/free-photo/man-hand-holding-virtual-world-with-internet-connection-metaverse-global-business-marketing-banking-financial-pass-thru-application-technology-concept_616485-32.jpg?t=st=1738956045~exp=1738959645~hmac=03efc9229eb370906acbaebfb71035b854a26e3eafc517f105e44d7d3ce94a06&w=1380",
+      "description": "When the <Form> becomes visible in the user's viewport, shared UI (such as layout.js and loading.js) on the /search page will be prefetched. On submission, the form will immediately navigate to the new route and show loading UI while the results are being fetched. You can design the fallback UI using "
     }
   ]
 }
