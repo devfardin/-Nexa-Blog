@@ -1,6 +1,6 @@
 import { NextResponse } from "next/server"
 
-const blogs = [
+export const blogs = [
 {
   "id": "5",
   "title": "Artificial Intelligence: Shaping Tomorrow's World",
@@ -18,8 +18,23 @@ const blogs = [
   "author_name": "Mehedi Imun Anik",
   "blog_image": "https://startnearshoring.com/wp-content/uploads/2023/07/The_Growing_Importance_of_Cybersecurity.jpg",
   "total_likes": "950"
-},
+}
 ]
 export const GET = async () => {
     return NextResponse.json(blogs);
+}
+
+export const POST = async (request: Request ) => {
+    const blog = request.json();
+    const newBlog = {
+        ...blog,
+        id: blogs.length + 1,
+    };
+    blogs.push(newBlog);
+    return new NextResponse(JSON.stringify(newBlog), {
+        status: 2001,
+        headers: {
+            'Content-type': 'application/json',
+        }
+    })
 }
